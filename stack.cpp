@@ -37,4 +37,14 @@ public:
         return value;
     }
 
+    //8. pembuatan prosedur pop
+    void pop() {
+        if (isEmpty()) {
+            cout << "Stack is Empty" << endl;
+        }
+
+        cout << "Popped Value: " << top->data << endl;
+        top = top->next;
+    }
+
     
