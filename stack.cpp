@@ -9,4 +9,8 @@ public:
     Node* next;
 
     Node() {
-        
+        //3. pemberian value next sabagai NULL
+        next = NULL;
+    }
+};
+
