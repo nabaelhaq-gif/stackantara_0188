@@ -93,4 +93,6 @@ int main()
         cout << "Enter your choice : ";
         cin >> choice;
 
+        //15. pembuatan kondisional statement choice
+        switch (choice)
         
